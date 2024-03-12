@@ -1,0 +1,220 @@
+
+  .store-result{
+    position: relative;
+    bottom: 0px;
+    margin-top: 10rem;
+  }
+  .store-result h2{
+    text-align: center;
+    font-family: 'Roboto', sans;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  .key-metrics{
+    display: flex;
+    background-color: rgba(44, 44, 27, 0.788);
+    padding: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .key-metrics h3 {
+    font-size: 18px;
+  }
+  
+  .key-metrics p {
+    margin: auto;
+    font-size: 22px;
+    color: rgb(196, 219, 235);
+    font-weight: 500;
+  }
+  .feature-image img{
+    
+    height:100vh;
+    width: 100%;
+    opacity:0.6;
+    position: relative;
+  }
+  .caption{
+    width: 100%;
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    /* justify-items: center; */
+    top: 8rem;
+  }
+  .caption img{
+    height: 26rem;
+    width: fit-content;
+    /* background-blend-mode: difference; */
+    /* margin-top: -5rem; */
+    padding-right: 15rem;
+  }
+  .caption h1{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 40px;
+  }
+  .btn-1{
+    background-color: greenyellow;
+    border: none;
+    position: absolute;
+    border-radius: 10px;
+    height: 2rem;
+    width: 10rem;
+    top: 25rem;
+    margin-left: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  .btn-1:hover{
+    cursor: pointer;
+  }
+  .div-bar{
+    color:red;
+    padding-left: 5px;
+    letter-spacing: 2px;
+    font-weight:bold;
+  }
+  .un-line{
+    height:8px;
+    width: 100px;
+    
+    margin: auto;
+    background-color: violet;
+    border-radius: 3px;
+    transition: width .3s;
+  }
+  .un-line:hover{
+    width: 200px;
+  }
+  .store-result .un-line,h2{
+    margin: 1px auto ;
+  }
+  
+  @media screen and (max-width: 1202px) {
+    .body-container {
+      background-color: #4158D0;
+      background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+      ;
+    }
+  
+    .feature-image img {
+      width: 100%;
+      height: auto;
+    }
+    .body-container .caption{
+      margin:0 auto;
+      /* padding: 20px; */
+    }
+    .feature-image{
+      max-width: 100%;
+    }
+    .caption{
+      /* flex-direction: column; */
+      width: fit-content;
+    
+      gap: 5rem;
+      position:absolute;
+    }
+    .caption img{
+      height: 14rem;
+      overflow: visible;
+      padding-right: 0;
+      /* right: 0; */
+    }
+    .caption h1{
+      text-align: left;
+      /* margin-left: 20%; */
+      font-size:30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      /* background-color: aqua; */
+    }
+    .store-result{
+      margin-top: 20rem;
+
+    }
+    .key-metrics{
+      flex-direction: column;
+    }
+    .btn-1{
+      background-color: greenyellow;
+      border: none;
+      
+      border-radius: 10px;
+      height: 2rem;
+      width: 6rem;
+      margin-top:-7rem;
+      /* z-index:  99; */
+      margin-left:6rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      /* font-weight: ; */
+      font-size: 10px;
+      box-shadow: 0px 2px  10px rgb(62, 51, 228);
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 656px) {
+    .feature-image img{
+      height: 80vh;
+      max-width: 100%;
+      opacity:0.6;
+      position: relative;
+      border-bottom-left-radius: 80% 50%;
+    }
+    .body-container .caption{
+      margin:0 auto;
+      /* padding: 20px; */
+    }
+    .feature-image{
+      max-width: 100%;
+    }
+    .caption{
+     flex-wrap: wrap;
+      width: fit-content;
+      gap: 4em;
+      justify-content: center;
+      justify-items: center;
+      position:absolute;
+    }
+    .caption img{
+      height: 15rem;
+      overflow: visible;
+      padding-right: 0;
+    }
+    .caption h1{
+      text-align: left;
+      /* margin-left: 20%; */
+      font-size:35px;
+      margin-left: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      /* color: rgb(85, 10, 20); */
+      font-weight: 800;
+      
+    }
+    .store-result{
+      margin-top: 20rem;
+
+    }
+    .key-metrics{
+      flex-direction: column;
+    }
+    .btn-1{
+      background-color: greenyellow;
+      border: none;
+      position: absolute;
+      border-radius: 10px;
+      height: 2rem;
+      width: 6rem;
+      margin-top: 13rem;
+      margin-left:20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      font-size: 10px;
+      box-shadow: 0px 2px  10px rgb(62, 51, 228);
+    }
+    
+    
+   
+  }

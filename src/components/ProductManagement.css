@@ -1,0 +1,118 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 5rem;
+  background-color: #f8f9fa; 
+  display: flex;
+  flex-direction: column; 
+  
+  align-items: center; 
+}
+.container h2{
+  margin-bottom: 2rem;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin-bottom: 20px; 
+}
+.book-list img{
+  height: 17rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+
+.book-card {
+  border: 1px solid #ced4da; 
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0 10px 20px; 
+  background-color: #fff; 
+  box-shadow: 0 3px 10px #14141477;
+  flex: 0 0 calc(33.3333% - 20px); 
+}
+
+
+.book-card h3 {
+  margin-bottom: 10px;
+  color: #007bff; 
+}
+
+
+.book-card p {
+  margin-bottom: 5px;
+  color: #495057; 
+}
+
+
+.delete-btn {
+  background-color: #dc3545; 
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.edit-btn {
+  margin-top: 3px;
+  background-color: #0ac022; 
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+.form-container {
+  width: 100%;
+  max-width: 400px; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+}
+
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 95%;
+  flex-direction: column;
+  border: 1px solid #ced4da; 
+  border-radius: 4px;
+}
+
+
+.form-container button {
+  background-color: #3807eb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .book-card {
+    flex-basis: calc(50% - 20px); 
+  }
+}
+.book-list button{
+  margin: 4px;
+}
+@media screen and (max-width: 576px) {
+ 
+  .book-card {
+    flex-basis: calc(100% - 20px); 
+  }
+}
