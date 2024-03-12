@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bookstack-Erp/static/css/main.c324def2.css",
+    "main.js": "/Bookstack-Erp/static/js/main.1e54871e.js",
+    "static/media/features.jpg": "/Bookstack-Erp/static/media/features.adff5c606a8b2925c16c.jpg",
+    "static/media/book-mockup.png": "/Bookstack-Erp/static/media/book-mockup.7e4ec7ea262c8d62973c.png",
+    "index.html": "/Bookstack-Erp/index.html",
+    "main.c324def2.css.map": "/Bookstack-Erp/static/css/main.c324def2.css.map",
+    "main.1e54871e.js.map": "/Bookstack-Erp/static/js/main.1e54871e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c324def2.css",
+    "static/js/main.1e54871e.js"
+  ]
+}
