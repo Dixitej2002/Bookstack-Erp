@@ -1,4 +1,4 @@
-// Dashboard.js
+
 import React from 'react';
 import fi from './icons/features.jpg'
 import bm from './icons/book-mockup.png'
